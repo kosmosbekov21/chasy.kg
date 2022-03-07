@@ -6,49 +6,55 @@ import s from '../../image/boxsho/sport.jpg'
 import m from '../../image/boxsho/m.jpg'
 import a from '../../image/boxsho/a.jpg'
 import u from '../../image/boxsho/ukr.jpg'
+
 import '../../App.css'
+import { NavLink } from 'react-router-dom'
+
+
 const Bloks = () => {
     return (
 
         <section className={b.colonka}>
+          
             <div className={b.tex}>
  <h2>ДОБРО ПОЖАЛОВАТЬ НА ОФИЦИАЛЬНЫЙ САЙТ МАГАЗИНОВ «CLOK.KG»</h2>
   <p>Мы рады приветствовать Вас в магазине лучших часов - Clok.kg! Если Вы хотите  купить оригинальные наручные часы известных брендов, то  мы  с  удовольствием  вам  поможем. Мы предлагаем наручные часы ведущих мировых компаний, модные новинки и эксклюзивные модели лимитированных коллекций.Мы с гордостью можем сказать что у нас один из самых больших выборов наручных часов в Бишкеке.</p>
  </div>
-            <div class='container'>
+            <div className={b.container}>
 
-                <div class='card'>
-                    <div class='imgbox'>
+                <div className={b.card}>
+                    <div className={b.imgbox}>
                         <img src={f} />
                     </div>
-                    <div class='content'>
+                    <div className={b.content}>
                         <h2>Мужские часы</h2>
-                        <button class='btns'><a href="">Подробне</a></button>
+                        <button className={b.btns}><NavLink to='/male'>Подробне</NavLink></button>
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>
                     </div>
                 </div>
 
-                <div class='card'>
-                    <div class='imgbox'>
+                <div className={b.card}>
+                    <div className={b.imgbox}>
                         <img src={j} />
                     </div>
-                    <div class='content'>
+                    <div className={b.content}>
                         <h2>Женские часы</h2>
-                        <button class='btns'><a href="">Подробне</a></button>
+                        <button className={b.btns}><NavLink to="/wooman">Подробне</NavLink></button>
+                        
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>
                     </div>
                 </div>
-                <div class='card'>
-                    <div class='imgbox'>
+                <div className={b.card}>
+                    <div className={b.imgbox}>
                         <img src={s} />
                     </div>
-                    <div class='content'>
+                    <div className={b.content}>
                         <h2>Спортивные часы</h2>
-                        <button class='btns'><a href="">Подробне</a></button>
+                        <button className={b.btns}><NavLink to='/male'>Подробне</NavLink></button>
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>
@@ -57,40 +63,40 @@ const Bloks = () => {
 
             </div>
 
-            <div class='container'>
+            <div className={b.container}>
 
-                <div class='card'>
-                    <div class='imgbox'>
+            <div className={b.card}>
+            <div className={b.imgbox}>
                         <img src={m} />
                     </div>
-                    <div class='content'>
+                    <div className={b.content}>
                         <h2>Механические часы</h2>
-                        <button class='btns'><a href="">Подробне</a></button>
+                        <button className={b.btns}><NavLink to='/male'>Подробне</NavLink></button>
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>
                     </div>
                 </div>
 
-                <div class='card'>
-                    <div class='imgbox'>
+                <div className={b.card}>
+                <div className={b.imgbox}>
                         <img src={a} />
                     </div>
-                    <div class='content'>
+                    <div className={b.content}>
                         <h2>Аксессуары</h2>
-                        <button class='btns'><a href="">Подробне</a></button>
+                        <button className={b.btns}><NavLink to='/male'>Подробне</NavLink></button>
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>
                     </div>
                 </div>
-                <div class='card'>
-                    <div class='imgbox'>
+                <div className={b.card}>
+                <div className={b.imgbox}>
                         <img src={u} />
                     </div>
-                    <div class='content'>
+                    <div className={b.content}>
                         <h2>Ювелирные украшения</h2>
-                        <button class='btns'><a href="">Подробне</a></button>
+                        <button className={b.btns}><NavLink to='/male'>Подробне</NavLink></button>
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>

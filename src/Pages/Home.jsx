@@ -5,6 +5,9 @@ import Bloks from '../components/Bloks/Bloks'
 import Stoks from '../components/Stock/Stock'
 import Contact from '../components/Contact/Contact'
 import And from '../components/And/And'
+
+
+
 const Home = () => {
   return (
     <div>
@@ -14,6 +17,7 @@ const Home = () => {
       <Stoks />
       <Contact />
       <And />
+      
     </div>
   )
 }
