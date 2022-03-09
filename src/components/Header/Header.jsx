@@ -18,8 +18,9 @@ const Header = () => {
   <Dropdown.Menu>
     <Dropdown.Item> <NavLink to='/male'>Мужские часы</NavLink> </Dropdown.Item>
     <Dropdown.Item><NavLink to='/wooman'>Женские часы</NavLink></Dropdown.Item>
-    <Dropdown.Item href="/">Спортивные часы</Dropdown.Item>
-    <Dropdown.Item href="#/action-4">Механические часы</Dropdown.Item>
+    <Dropdown.Item><NavLink to='/sport'>Спортивные часы</NavLink></Dropdown.Item>
+    <Dropdown.Item><NavLink to='/meh'>Механические часы</NavLink></Dropdown.Item>
+    <Dropdown.Item><NavLink to='/smart'>Смарт часы</NavLink></Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
 

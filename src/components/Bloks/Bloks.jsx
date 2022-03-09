@@ -54,7 +54,7 @@ const Bloks = () => {
                     </div>
                     <div className={b.content}>
                         <h2>Спортивные часы</h2>
-                        <button className={b.btns}><NavLink to='/male'>Подробне</NavLink></button>
+                        <button className={b.btns}><NavLink to='/sport'>Подробне</NavLink></button>
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>
@@ -83,8 +83,8 @@ const Bloks = () => {
                         <img src={a} />
                     </div>
                     <div className={b.content}>
-                        <h2>Аксессуары</h2>
-                        <button className={b.btns}><NavLink to='/male'>Подробне</NavLink></button>
+                        <h2>Смарт часы</h2>
+                        <button className={b.btns}><NavLink to='/smart'>Подробне</NavLink></button>
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>

@@ -6,6 +6,9 @@ import Aboutt from './Pages/Aboutt'
 import Male from "./Pages/Male";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Wooman from "./Pages/Wooman";
+import Sport from "./Pages/Sport";
+import Meh from "./Pages/Meh";
+import Smart from './Pages/Smart'
 function App() {
 
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path='/aboutt'element={<Aboutt/>}/>
         <Route path='/male' element={<Male/>}/>
         <Route path='/wooman' element={<Wooman/>}/>
+        <Route path='/sport' element={<Sport/>}/>
+        <Route path='/meh' element={<Meh/>}/>
+        <Route path='/smart' element={<Smart/>}/>
       </Routes>
     </BrowserRouter>
   );
