@@ -1,0 +1,20 @@
+.fon{
+	background-image: url('../image/logo/iogo.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+.text_comp{
+	width: 90%;
+ 	padding: 45px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+}
+.text_comp h1{
+	text-align: center;
+}
+.text_comp p{
+	font-size: 20px;
+}
+@media (min-width:480px) and (max-width:1200px){
+	
+}
