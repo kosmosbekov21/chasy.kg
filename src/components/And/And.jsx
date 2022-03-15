@@ -34,10 +34,16 @@ const And = () => {
           </li>
 
           <li>
-            <NavLink to="#/action-3">Спортивные часы</NavLink>
+            <NavLink to="/sport">Спортивные часы</NavLink>
           </li>
           <li>
-            <NavLink to="#/action-4">Механические часы</NavLink>
+            <NavLink to="/meh">Механические часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/smart">Смарт часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/decoration">Ювелирные украшения</NavLink>
           </li>
         </div>
 

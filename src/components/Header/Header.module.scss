@@ -3,7 +3,14 @@
     justify-content: space-evenly;
     align-items: center;
     font-family: DMSans;
-    padding-top: 1rem;
+    padding-top: 1rem;  
+}
+.topp{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    z-index: 1;
 }
 .menu li{
     list-style: none;

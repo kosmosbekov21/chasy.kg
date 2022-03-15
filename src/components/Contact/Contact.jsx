@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <section className={cons.card}>
             <div className={cons.text_comp}>
-            <div>
+            <div className='animate__animated animate__fadeInUp animate__delay-0s'>
     <h1>Магазин часов</h1>
     <p>В интернет-магазине clok.kg каждый может выбрать и купить наручные часы, потратив совсем немного времени, - удобный поиск со множеством фильтров в считаные минуты подберет модель Вашей мечты среди множества, представленного на сайте.
 

@@ -8,7 +8,7 @@ const Stock = () => {
     return (
         <section className={ab.component}>
             <h1>Акция</h1>
-            <Carousel>
+            <Carousel className={ab.mediu}>
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"

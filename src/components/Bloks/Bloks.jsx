@@ -6,7 +6,7 @@ import s from '../../image/boxsho/sport.jpg'
 import m from '../../image/boxsho/m.jpg'
 import a from '../../image/boxsho/a.jpg'
 import u from '../../image/boxsho/ukr.jpg'
-
+import 'animate.css';
 import '../../App.css'
 import { NavLink } from 'react-router-dom'
 
@@ -17,8 +17,8 @@ const Bloks = () => {
         <section className={b.colonka}>
           
             <div className={b.tex}>
- <h2>ДОБРО ПОЖАЛОВАТЬ НА ОФИЦИАЛЬНЫЙ САЙТ МАГАЗИНОВ «CLOK.KG»</h2>
-  <p>Мы рады приветствовать Вас в магазине лучших часов - Clok.kg! Если Вы хотите  купить оригинальные наручные часы известных брендов, то  мы  с  удовольствием  вам  поможем. Мы предлагаем наручные часы ведущих мировых компаний, модные новинки и эксклюзивные модели лимитированных коллекций.Мы с гордостью можем сказать что у нас один из самых больших выборов наручных часов в Бишкеке.</p>
+ <h2 className='animate__animated animate__fadeInUp animate__bounce'>ДОБРО ПОЖАЛОВАТЬ НА ОФИЦИАЛЬНЫЙ САЙТ МАГАЗИНОВ «CLOK.KG»</h2>
+  <p className='animate__animated animate__fadeInUp animate__bounce'>Мы рады приветствовать Вас в магазине лучших часов - Clok.kg! Если Вы хотите  купить оригинальные наручные часы известных брендов, то  мы  с  удовольствием  вам  поможем. Мы предлагаем наручные часы ведущих мировых компаний, модные новинки и эксклюзивные модели лимитированных коллекций.Мы с гордостью можем сказать что у нас один из самых больших выборов наручных часов в Бишкеке.</p>
  </div>
             <div className={b.container}>
 
@@ -96,7 +96,7 @@ const Bloks = () => {
                     </div>
                     <div className={b.content}>
                         <h2>Ювелирные украшения</h2>
-                        <button className={b.btns}><NavLink to='/male'>Подробне</NavLink></button>
+                        <button className={b.btns}><NavLink to='/decoration'>Подробне</NavLink></button>
                         <p>
                             <a href="https://chasy.kg/muzhskie-chasy">chasy.kg</a>
                         </p>
@@ -107,44 +107,6 @@ const Bloks = () => {
 
         </section>
 
-
-
-
-        // <div className={b.container}>
-
-        //     <div>
-
-        //         <div className={b.card}>
-
-        //             <img className={b.foto} src={f}/>
-        //             <div className={b.info}>
-        //                 <h2>About me</h2>
-        //                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus libero voluptatum sit! Sequi facere in tempora quibusdam mollitia provident aut?</p>
-        //             </div>
-        //         </div>
-        //     </div>
-
-        //     <div>
-        //         <div className={b.card}>
-        //             <div className={b.image}></div>
-        //             <div className={b.info}>
-        //                 <h2>About me</h2>
-        //                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus libero voluptatum sit! Sequi facere in tempora quibusdam mollitia provident aut?</p>
-        //             </div>
-        //         </div>
-        //     </div>
-
-        //     <div>
-        //         <div className={b.card}>
-        //             <div className={b.image}></div>
-        //             <div className={b.info}>
-        //                 <h2>About me</h2>
-        //                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus libero voluptatum sit! Sequi facere in tempora quibusdam mollitia provident aut?</p>
-        //             </div>
-        //         </div>
-        //     </div>
-
-        // </div>
     )
 }
 

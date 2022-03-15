@@ -3,10 +3,11 @@ import { NavLink } from 'react-router-dom'
 import s from './Header.module.scss'
 import log from '../../image/logo/chasy_kg_logo-b.png'
 import { Dropdown } from 'react-bootstrap'
+
 const Header = () => {
   return (
-    <div>
-
+     
+ <div className={s.topp}>
       <ul className={s.menu}>
     <li>
       <NavLink to='/'> <img src={log} /></NavLink>
@@ -21,6 +22,7 @@ const Header = () => {
     <Dropdown.Item><NavLink to='/sport'>Спортивные часы</NavLink></Dropdown.Item>
     <Dropdown.Item><NavLink to='/meh'>Механические часы</NavLink></Dropdown.Item>
     <Dropdown.Item><NavLink to='/smart'>Смарт часы</NavLink></Dropdown.Item>
+    <Dropdown.Item><NavLink to='/decoration'>Ювелирные украшения</NavLink></Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
 
@@ -37,6 +39,7 @@ const Header = () => {
       
       </ul>
     </div>
+   
   )
 }
 

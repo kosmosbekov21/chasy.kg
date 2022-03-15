@@ -11,6 +11,7 @@ import And from '../components/And/And'
 const Home = () => {
   return (
     <div>
+     
       <Menu />
       <Slider />
       <Bloks />
