@@ -41,13 +41,15 @@
 .df{
     display: flex;
     justify-content: space-around;
-	color: rgba(209, 255, 6, 0.644);
+	
 }
 .contend{
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
 	width: 95%;
+}
+.contend h5{
+	color: rgba(209, 255, 6, 0.644);
 }	
 .contend li{
 	list-style: none;
@@ -64,4 +66,31 @@
     transform: scale(1.4);
     transition: .7s;
     color: #11f037;
+}
+@media (max-width: 480px) {
+	.and{
+	    margin-top: 122rem;
+        height: 70vh;
+	}
+	.cont button{
+		display: none;
+	}
+	.contend{
+		padding: 0;
+		display: block;
+		text-align: start;
+        margin: 18px;
+	}
+	.icons{
+		margin: 0;
+		display: flex;
+        flex-direction: row;
+	}
+	.cont{
+		display: none;
+	}
+	.tex{
+		width: 80%;
+		padding-left: 5rem;
+	}
 }

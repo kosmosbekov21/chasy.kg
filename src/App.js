@@ -10,13 +10,13 @@ import Sport from "./Pages/Sport";
 import Meh from "./Pages/Meh";
 import Smart from './Pages/Smart'
 import Decoration from "./Pages/Decoration"
+import Corzina from "./Pages/Corzina/Corzina";
 function App() {
 
   return (
     <BrowserRouter>
       <Header />
-    
-
+      
       <Routes>
         <Route path='/' element={<Home/>}/> 
         <Route path='/blog' element={<Blog/>}/>
@@ -27,6 +27,7 @@ function App() {
         <Route path='/meh' element={<Meh/>}/>
         <Route path='/smart' element={<Smart/>}/>
         <Route path='/decoration' element={<Decoration/>}/>
+        <Route path='/corzina' element={<Corzina/>}/>
       </Routes>
     </BrowserRouter>
   );

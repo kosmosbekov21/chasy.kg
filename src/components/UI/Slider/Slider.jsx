@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-
+import sl from './Slider.module.scss'
 import aaa from '../../../image/slaid/aaa.jpg'
 import bbb from '../../../image/slaid/bbb.jpg'
 import ddd from '../../../image/slaid/dd.jpg'
@@ -9,6 +9,7 @@ const Slider = () => {
 
 
 <div>
+    
 <Carousel variant="dark">
 
   <Carousel.Item>

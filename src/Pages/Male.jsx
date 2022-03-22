@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import mu from './Male.module.scss'
 import q from '../image/male/q.jpg'
 import w from '../image/male/w.jpg'
@@ -20,8 +20,18 @@ import j from '../image/male/j.jpg'
 import k from '../image/male/k.jpg'
 import l from '../image/male/lj.jpg'
 import z from '../image/male/z.jpg'
-import And from '../components/And/And'
+import f_1 from '../image/logo/what.png'
+import f_2 from '../image/logo/inst.png'
+import f_3 from '../image/logo/fac.png'
+import { NavLink } from 'react-router-dom'
 const Male = () => {
+  const [menu, setMenu] = useState (
+    
+    //    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+    // <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+    //    </svg>
+       
+  )
   return (
     <section className={mu.body}>
 
@@ -36,8 +46,14 @@ const Male = () => {
                   <h5>Командирские</h5>
                   <p>механические мужские аналоговые корпус латунь браслет: кожа водонепроницаемость: WR30 (брызги, дождь)</p>
                   <h4>Цена:</h4>
-                  <h2>2 900 сом</h2>
+                 <h2>2 900 сом</h2>
                 </div>
+                {/* <div onClick={()=>setMenu(<div className={mu.sv}><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+</svg></div>)}>
+          {menu}
+                </div> */}
+           
               </div>
             </div>
           </div>
@@ -52,6 +68,7 @@ const Male = () => {
                   <h4>Цена:</h4>
                   <h2>4 300 сом</h2>
                 </div>
+
               </div>
             </div>
           </div>
@@ -317,8 +334,69 @@ const Male = () => {
         </div>
       </div>
 
+      <section className={mu.and}>
+      <div className={mu.cont}>
+        <p>Вам нужна Бесплатная консультация области SMM?</p>
+        <button> <a href="+996 (555) 47 17 98">Позвонить нам </a></button>
+
+      </div>
+      <div className={mu.tex}>
+        <h4>Хотите узнавать первым об акциях и скидках?</h4>
+        <p>Подпишитесь на нашу рассылку и покупайте с выгодой!</p>
+      </div>
+      {/* <div className={an.df}>
+  
+      </div> */}
+
+      <div className={mu.contend}>
       
- <And/>
+        <div>
+        <h5>КАТАЛОГ</h5>
+          <li>
+            <NavLink to="/male">Мужские часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/wooman">Женские часы</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/sport">Спортивные часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/meh">Механические часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/smart">Смарт часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/decoration">Ювелирные украшения</NavLink>
+          </li>
+        </div>
+
+        <div>
+        <h5>АДРЕС</h5>
+          <a href="https://2gis.kg/bishkek/firm/70000001019367295/74.614494%2C42.876084?floor=1&m=74.614883%2C42.875859%2F18.98">г. Бишкек, ЦУМ, 3-этаж, B-4</a>
+        </div>
+
+        <div>
+        <h5>КОНТАКТЫ</h5>
+          <div> <a href="+996 (555) 47 17 98">+996 (555) 47 17 98</a></div>
+          <div><a href="+996 (504) 30 07 02">+996 (504) 30 07 02</a></div>
+          <div><a href="+996 (777) 30 07 02">+996 (504) 30 07 02</a></div>
+        </div>
+
+        <div>
+        <h5>МЫ СОЦ. СЕТЯХ</h5>
+        <div className={mu.icons}>
+        <a href=""><img src={f_1} /></a>
+        <a href=""> <img src={f_2} /></a>
+        <a href=""> <img src={f_3} /></a>
+        </div>
+        </div>
+
+      </div>
+    </section>
+      
     </section>
   )
 }

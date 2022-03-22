@@ -17,10 +17,16 @@ import f from '../image/smart/f.png'
 import g from '../image/smart/g.png'
 import h from '../image/smart/h.jpg'
 import j from '../image/smart/j.jpg'
-import And from '../components/And/And'
+import f_1 from '../image/logo/what.png'
+import f_2 from '../image/logo/inst.png'
+import f_3 from '../image/logo/fac.png'
+import { NavLink } from 'react-router-dom'
 const Smart = () => {
     return (
         <section className={sm.body}>
+            {/* <div className={sm.vid}>
+        <video autoPlay preload='auto' loop src={video_1}></video>
+      </div> */}
             <div className={sm.bodys}>
                 <div className={sm.container}>
 
@@ -138,20 +144,6 @@ const Smart = () => {
 
                     <div className={sm.box}>
                         <div className={sm.imgBox}>
-                            <img src={i} />
-                            <div className={sm.defalis}>
-                                <div className={sm.content}>
-                                    <h5>APPLE WATCH SERIES 6 44MM</h5>
-                                    <p>Датчик уровня кислорода в крови, акселерометр 32g, гироскоп, датчик внешней освещенности,оптический датчик сердечного ритма 2го поколения1.</p>
-                                    <h4>Цена:</h4>
-                                    <h2>42 690 сом</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={sm.box}>
-                        <div className={sm.imgBox}>
                             <img src={o} />
                             <div className={sm.defalis}>
                                 <div className={sm.content}>
@@ -173,6 +165,21 @@ const Smart = () => {
                                     <p>Galaxy Watch4 отличаются лаконичным дизайном и прочным алюминиевым корпусом. Они отлично дополнят любой образ и стиль и обеспечат широкую функциональность для выполнения ваших тренировок и повседневных задач.</p>
                                     <h4>Цена:</h4>
                                     <h2>26 990 сом</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                      
+                    <div className={sm.box}>
+                        <div className={sm.imgBox}>
+                            <img src={i} />
+                            <div className={sm.defalis}>
+                                <div className={sm.content}>
+                                    <h5>APPLE WATCH SERIES 6 44MM</h5>
+                                    <p>Датчик уровня кислорода в крови, акселерометр 32g, гироскоп, датчик внешней освещенности,оптический датчик сердечного ритма 2го поколения1.</p>
+                                    <h4>Цена:</h4>
+                                    <h2>42 690 сом</h2>
                                 </div>
                             </div>
                         </div>
@@ -307,7 +314,70 @@ const Smart = () => {
 
                 </div>
             </div>
-            <And/>
+            
+            <section className={sm.and}>
+      <div className={sm.cont}>
+        <p>Вам нужна Бесплатная консультация области SMM?</p>
+        <button> <a href="+996 (555) 47 17 98">Позвонить нам </a></button>
+
+      </div>
+      <div className={sm.tex}>
+        <h4>Хотите узнавать первым об акциях и скидках?</h4>
+        <p>Подпишитесь на нашу рассылку и покупайте с выгодой!</p>
+      </div>
+      {/* <div className={an.df}>
+  
+      </div> */}
+
+      <div className={sm.contend}>
+      
+        <div>
+        <h5>КАТАЛОГ</h5>
+          <li>
+            <NavLink to="/male">Мужские часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/wooman">Женские часы</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/sport">Спортивные часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/meh">Механические часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/smart">Смарт часы</NavLink>
+          </li>
+          <li>
+            <NavLink to="/decoration">Ювелирные украшения</NavLink>
+          </li>
+        </div>
+
+        <div>
+        <h5>АДРЕС</h5>
+          <a href="https://2gis.kg/bishkek/firm/70000001019367295/74.614494%2C42.876084?floor=1&m=74.614883%2C42.875859%2F18.98">г. Бишкек, ЦУМ, 3-этаж, B-4</a>
+        </div>
+
+        <div>
+        <h5>КОНТАКТЫ</h5>
+          <div> <a href="+996 (555) 47 17 98">+996 (555) 47 17 98</a></div>
+          <div><a href="+996 (504) 30 07 02">+996 (504) 30 07 02</a></div>
+          <div><a href="+996 (777) 30 07 02">+996 (504) 30 07 02</a></div>
+        </div>
+
+        <div>
+        <h5>МЫ СОЦ. СЕТЯХ</h5>
+        <div className={sm.icons}>
+        <a href=""><img src={f_1} /></a>
+        <a href=""> <img src={f_2} /></a>
+        <a href=""> <img src={f_3} /></a>
+        </div>
+        </div>
+
+      </div>
+    </section>
+
         </section>
     )
 }

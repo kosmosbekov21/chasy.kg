@@ -5,6 +5,7 @@
     font-family: DMSans;
     padding-top: 1rem;  
 }
+
 .topp{
     position: sticky;
     top: 0;
@@ -19,13 +20,13 @@
 }
 
 .menu button{
-    padding: 7px 20px;
-    
+    // padding: 7px 20px;
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
+    background-color: rgb(24, 15, 15);
 }
 .menu button:hover{
     background: #772204;
@@ -35,35 +36,32 @@
     text-decoration: none;
     color: black;
 }
-// .menu a::after,
-// .menu a ::before{
-//     content: '';
-//     position: absolute;
-//     left: 0;
-//     display: inline-block;
-//     height: 1em;
-//     width: 100%;
-//     margin-top: 10px;
-//     opacity: 0;
-//     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-//     transition: opacity 0.35s, transform 0.35s;
-// }
-// .menu a ::before{
-//     border-left: 1px solid;
-//     border-right: 1px solid;
-//     -webkit-transform: scale(1,0);
-//     transform: scale(1,0);
-// }
-// .menu a ::after{
-//     border-bottom: 1px solid;
-//     border-top: 1px solid;
-//     -webkit-transform: scale(0,1);
-//     transform: scale(0,1);
-//   }
-// .menu a :hover ::after,
-// .menu a :hover ::after{
-//     opacity: 1;
-//     -webkit-transform: scale(1);
-//     transform: scale(1);
-// }
+.corz{
+    display: flex;
+    padding: 0px 5px;
+    align-items: flex-start;
+}
+.corz svg{
+    color: white;
+    margin-top: 9px;
+}
+.corz p{
+    margin-top: 9px;
+    color: white;
+}
+@media (max-width: 840px){
+    .menu{
+        display: block;
+    }
+    .drop{
+        display: none;
+    }
+    .menu img{
+        padding-left: 1rem;
+    }
+    .drops{
+       text-align: center;
+       font-size: 30px;
+    }
+}
 

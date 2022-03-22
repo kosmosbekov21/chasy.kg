@@ -1,11 +1,11 @@
 .fon{
 	background-image: url('../image/logo/iogo.jpg');
 	background-size: cover;
-	height: 100vh;
+	height: 91vh;
 }
 .text_comp{
-	width: 90%;
- 	padding: 45px;
+    width: 99%;
+	padding-left: 1rem;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color: white;
 }
@@ -15,6 +15,111 @@
 .text_comp p{
 	font-size: 20px;
 }
-@media (min-width:480px) and (max-width:1200px){
+
+.and{
+	margin-top: 2rem;
+    background-image: url('../image/slaid/z.jpg');
+	padding-top: 2rem;
+	height: 43vh;
+}
+
+.tex{
+	text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+	color: white;
+}
+.cont{
+	
+	height: 11vh;
+	text-align: center;
+
+}
+.cont button{
+	background-color: rgba(172, 119, 119, 0.301);
+	border-radius: 10px;
+	border-color: rgba(15, 14, 14, 0.733);
 	
 }
+.cont button:hover{
+	background-color: rgb(214, 141, 141);
+	transition: .7s;
+}
+.cont p{
+	font-size: 28px;
+	color: rgb(247, 245, 243);
+	font-family: 'Times New Roman', Times, serif;
+}
+.cont a{
+	text-decoration: none;
+	font-size: 20px;
+	color: rgb(245, 240, 240);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.df{
+    display: flex;
+    justify-content: space-around;
+	
+}
+.contend{
+	display: flex;
+	justify-content: space-around;
+	width: 95%;
+}
+.contend h5{
+	color: rgba(209, 255, 6, 0.644);
+}	
+.contend li{
+	list-style: none;
+}
+.contend a{
+	text-decoration: none;
+	color: rgb(243, 242, 242);
+	font-size: 18px;
+}
+.icons a{
+	display: block;
+}
+.icons a:hover{
+    transform: scale(1.4);
+    transition: .7s;
+    color: #11f037;
+}
+
+
+@media (max-width:425px) {
+	.fon{
+		height: 330vh;
+	}
+	.cont button{
+		display: none;
+	}
+	.contend{
+		padding: 0;
+		display: block;
+		text-align: start;
+        margin: 18px;
+	}
+	.and{
+		height: 75vh;
+	}
+	.icons{
+		margin: 0;
+		display: flex;
+        flex-direction: row;
+        
+	}
+}
+@media (min-width: 1024px) and (max-width: 1440px){
+    .fon{
+		height: 143vh;
+	}
+	.container{
+        padding: 0;
+        text-align: center;
+    }
+    .and{
+		height: 47vh;
+	}
+}
+
